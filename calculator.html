@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div class="container">
+    <div class="display">
+        <textarea id="out" class="out" placeholder="0"></textarea>
+    </div>
+    <div class="buttons">
+        <button class="btn" onclick="back()" id="back"> ⌫</button>
+        <button class="btn" onclick="res()" id="eql">=</button>
+        <button class="btn" onclick="remove()" id="clear">C</button>
+        <button class="btn" onclick="input(1)" id="1">1</button>
+        <button class="btn" onclick="input(2)" id="2">2</button>
+        <button class="btn" onclick="input(3)" id="3">3</button>
+        <button class="btn" onclick="input(4)" id="4">4</button>
+        <button class="btn" onclick="input(5)" id="5">5</button>
+        <button class="btn" onclick="input(6)" id="6">6</button>
+        <button class="btn" onclick="input(7)" id="7">7</button>
+        <button class="btn" onclick="input(8)" id="8">8</button>
+        <button class="btn" onclick="input(9)" id="9">9</button>
+        <button class="btn" onclick="input('.')" id="dot">.</button>
+        <button class="btn" onclick="input(0)" id="0">0</button>
+        <button class="btn" onclick="input('+')" id="add">+</button>
+        <button class="btn" onclick="input('/')" id="div">/</button>
+        <button class="btn" onclick="input('-')" id="minus">-</button>
+        <button class="btn" onclick="input('*')" id="mul">X</button>
+        
+        
+
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
