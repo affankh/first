@@ -8,6 +8,12 @@ function res(){
     res.value = eval(res.value);
     return res.value;
 }
+function res1(){
+    let res = document.getElementById('out');
+    res.value = eval(res.value);
+    return res.value;
+}
+
 function remove(){
     let res = document.getElementById('out');
     res.value = "";
